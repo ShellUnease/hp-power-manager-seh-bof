@@ -1,0 +1,2 @@
+# SEH Based Buffer Overflow with Space Limitations based on https://www.youtube.com/watch?v=wwyoh2kEO9I
+I followed xct's version and was able to succesfully get it working on my win10, win7 VMs and PG Practice Kevin. Afterwards I decided to use another SEH gadget and got it working on my win10, win7 VMs but sadly it doesn't work on PG Practice Kevin. `exploit-my-version.py` is better documented, comments in `exploit-xct-version.py` are more of a draft.
